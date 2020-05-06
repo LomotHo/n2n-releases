@@ -31,7 +31,7 @@ https://github.com/LomotHo/n2n-releases/releases
 
  - edge节点
 ```sh
-sudo ./edge -c mynetwork -k mysecretpass -a 192.168.100.1 -f -l supernode.ntop.org:7777
+sudo ./edge -c mynetwork -k mysecretpass -a 192.168.100.10 -f -l supernode.ntop.org:7777
 ```
 
  - supernode节点
