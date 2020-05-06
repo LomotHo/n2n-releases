@@ -1,4 +1,4 @@
-# n2n-releases
+# 编译了一份n2n 2.6.0(支持 linux x64, linux arm aarch64, macOS)
 
 ## 起因
 我手上有x86_64和arm架构的linux设备，以及macOS，windows设备，准备在这些平台上面安装n2n，去github项目上只找到了源码，没看到作者发布编译好的多平台二进制文件，因此只能自己编译了，当前版本为2.6.0
