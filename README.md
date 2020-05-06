@@ -25,3 +25,17 @@ brew install lomotho/taps/n2n
 
 ## 下载
 https://github.com/LomotHo/n2n-releases/releases
+
+## 用法
+这里只做简单介绍，详细用法请参考 [官方文档](https://github.com/ntop/n2n)
+
+ - edge节点
+```sh
+sudo ./edge -c mynetwork -k mysecretpass -a 192.168.100.1 -f -l supernode.ntop.org:7777
+```
+
+ - supernode节点
+```sh
+./supernode -l 7777
+```
+
