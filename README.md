@@ -22,3 +22,6 @@ windows版找到了一个别人编译的版本，还是一个带图形界面的�
 ```sh
 brew install lomotho/taps/n2n
 ```
+
+## 下载
+https://github.com/LomotHo/n2n-releases/releases
