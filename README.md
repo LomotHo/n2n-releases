@@ -1,16 +1,15 @@
-之前编译过一份 n2n 2.6，现在更新为 2.8，顺便把使用方法补上
-
 ## 起因
 
-我手上有 x86_64 和 arm 架构的 linux 设备，以及 macOS，windows 设备，准备在这些平台上面安装 n2n，去 github 项目上只找到了源码，没看到作者发布编译好的多平台二进制文件，因此只能自己编译了，当前版本为 2.8
+我手上有 x86_64 和 arm 架构的 linux 设备，以及 macOS，windows 设备，准备在这些平台上面安装 n2n，去 github 项目上只找到了源码，没看到作者发布编译好的多平台二进制文件，因此只能自己编译了，当前版本为 3.0
 
 ## 编译方法
 
 #### linux, macOS
 
 ```sh
-./autogen.sh
-./configure
+git clone https://github.com/ntop/n2n
+cd n2n && mkdir build && cd build
+cmake ..
 make
 ```
 
@@ -30,7 +29,7 @@ https://github.com/LomotHo/n2n-releases/releases
 
 ### 服务端
 
-此处只以 linux 为例
+此处只以 linux 2.8 为例
 
 - 安装
 
@@ -121,4 +120,3 @@ launchctl load /Library/LaunchDaemons/lomotho.n2n.edge.plist
 # 关闭服务
 launchctl unload /Library/LaunchDaemons/lomotho.n2n.edge.plist
 ```
-
